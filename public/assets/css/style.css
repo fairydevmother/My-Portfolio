@@ -445,6 +445,9 @@ section {
   background: #fff;
   border: 2px solid #0563bb;
 }
+.resume h5{
+  color:black;
+}
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -944,7 +947,7 @@ section:nth-child(4){
   color: #ffff;
 }
 section .container{
-  margin: 70px;
+  margin: 50px;
 }
 section .text-container{
    display: flex;
