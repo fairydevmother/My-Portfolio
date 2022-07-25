@@ -1,5 +1,7 @@
 /* Fonts*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i);
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet');
 
 body {
 
@@ -112,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
-  border-radius: 50px;
+  border-radius: 25px;
   background: #f2f3f5;
   height: 56px;
   width: 100%;
@@ -223,10 +225,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 64px;
-  font-weight: 700;
+  font-size: 68px;
+  font-weight: 400;
   line-height: 56px;
   color: #45505b;
+  font-family: 'Black Ops One', cursive;
 }
 #hero p {
   color: #45505b;
@@ -334,6 +337,13 @@ section {
 .about .content ul strong {
   margin-right: 10px;
 }
+.about h3{
+  font-size:28px;
+  font-family: 'Inconsolata', monospace;
+}
+.about p{
+  font-size:20px;
+}
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
@@ -345,46 +355,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-.facts .count-box {
-  padding: 30px 30px 25px 30px;
-  margin-top: 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background: #fff;
-}
-.facts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #0563bb;
-  color: #fff;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-}
-.facts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #011426;
-}
-.facts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-
-/*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -448,6 +419,11 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+.resume h3,p{
+  
+  font-family: 'Inconsolata', monospace;
+  font-size:22px;
 }
 .resume .resume-item ul {
   padding-left: 20px;
@@ -1011,6 +987,10 @@ section .text-container .text-box h3{
   transform: translateY(0);
   opacity: 1;
 }
+
+
+
+
 
 
 
