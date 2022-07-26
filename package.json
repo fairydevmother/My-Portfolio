@@ -14,9 +14,11 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
+    "node": "^18.5.0",
     "nodemon": "^2.0.19",
     "react": "^18.2.0",
-    "smws": "^1.0.2"
+    "smws": "^1.0.2",
+    "uglifyjs": "^2.4.11"
   },
   "devDependencies": {
     "grunt-contrib-cssmin": "^4.0.0",
