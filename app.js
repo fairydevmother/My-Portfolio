@@ -8,13 +8,10 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const http = require("http");
+
 const app = express();
 
 
-setInterval(function() {
-    http.get("https://fairydevmother.herokuapp.com/");
-}, 300000); // every 5 minutes (300000)
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
